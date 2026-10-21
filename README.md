@@ -1,4 +1,4 @@
-# Nutrition5k nutrition-estimation MVP
+# Nutrition-Tracker-Model
 
 This project predicts four totals from one overhead food image, always in this
 order: calories (kcal), protein (g), carbohydrates (g), and fat (g).
