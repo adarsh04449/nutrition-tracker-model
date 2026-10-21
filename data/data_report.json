@@ -1,0 +1,20 @@
+{
+  "images": 3490,
+  "dishes": 3490,
+  "metadata_dishes": 5006,
+  "scope": "locally downloaded overhead RGB only",
+  "target_order": [
+    "calories_kcal",
+    "protein_g",
+    "carbohydrates_g",
+    "fat_g"
+  ],
+  "units": [
+    "kcal",
+    "g",
+    "g",
+    "g"
+  ],
+  "visual_review": "passed: no obvious photo/label mismatches",
+  "note": "Full verified table; model subsets are generated in data/splits."
+}

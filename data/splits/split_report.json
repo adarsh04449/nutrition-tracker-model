@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "validation_fraction_requested": 0.15,
+  "candidate_group_gap_seconds": 600,
+  "train": 2342,
+  "validation": 413,
+  "test": 507,
+  "excluded_not_in_official_splits": 228,
+  "candidate_groups_in_official_train_pool": 345,
+  "overlap_checks": "passed"
+}
