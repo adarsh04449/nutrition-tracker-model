@@ -1,0 +1,122 @@
+[
+  {
+    "epoch": 1,
+    "training_loss": 0.19721873439243978,
+    "validation_loss": 0.2034224437022036,
+    "validation_mean_normalized_mae": 0.47708696126937866,
+    "validation_mae": {
+      "calories_kcal": 98.35562133789062,
+      "protein_g": 10.78467845916748,
+      "carbohydrates_g": 8.030617713928223,
+      "fat_g": 7.332810878753662
+    }
+  },
+  {
+    "epoch": 2,
+    "training_loss": 0.1410530363992938,
+    "validation_loss": 0.18862367571121844,
+    "validation_mean_normalized_mae": 0.453367680311203,
+    "validation_mae": {
+      "calories_kcal": 92.23991394042969,
+      "protein_g": 10.113557815551758,
+      "carbohydrates_g": 7.897453784942627,
+      "fat_g": 6.985306262969971
+    }
+  },
+  {
+    "epoch": 3,
+    "training_loss": 0.12520726129291762,
+    "validation_loss": 0.18742993221444598,
+    "validation_mean_normalized_mae": 0.4494895935058594,
+    "validation_mae": {
+      "calories_kcal": 93.43517303466797,
+      "protein_g": 9.998252868652344,
+      "carbohydrates_g": 7.698089599609375,
+      "fat_g": 6.900324821472168
+    }
+  },
+  {
+    "epoch": 4,
+    "training_loss": 0.11753246776702361,
+    "validation_loss": 0.1948288788807017,
+    "validation_mean_normalized_mae": 0.45725148916244507,
+    "validation_mae": {
+      "calories_kcal": 96.34019470214844,
+      "protein_g": 10.265724182128906,
+      "carbohydrates_g": 7.802487850189209,
+      "fat_g": 6.890087127685547
+    }
+  },
+  {
+    "epoch": 5,
+    "training_loss": 0.10972487218964314,
+    "validation_loss": 0.18305045921923752,
+    "validation_mean_normalized_mae": 0.4500443637371063,
+    "validation_mae": {
+      "calories_kcal": 92.43694305419922,
+      "protein_g": 10.021849632263184,
+      "carbohydrates_g": 7.765378952026367,
+      "fat_g": 6.935760498046875
+    }
+  },
+  {
+    "epoch": 6,
+    "training_loss": 0.10483092661345748,
+    "validation_loss": 0.18311147077897558,
+    "validation_mean_normalized_mae": 0.4463483393192291,
+    "validation_mae": {
+      "calories_kcal": 89.72823333740234,
+      "protein_g": 10.312417984008789,
+      "carbohydrates_g": 7.938353061676025,
+      "fat_g": 6.599020481109619
+    }
+  },
+  {
+    "epoch": 7,
+    "training_loss": 0.10256944184631338,
+    "validation_loss": 0.18252470064682763,
+    "validation_mean_normalized_mae": 0.4447864294052124,
+    "validation_mae": {
+      "calories_kcal": 92.1368408203125,
+      "protein_g": 9.920059204101562,
+      "carbohydrates_g": 7.929184436798096,
+      "fat_g": 6.649909496307373
+    }
+  },
+  {
+    "epoch": 8,
+    "training_loss": 0.09908746125655334,
+    "validation_loss": 0.18458802150179052,
+    "validation_mean_normalized_mae": 0.4464762210845947,
+    "validation_mae": {
+      "calories_kcal": 91.651123046875,
+      "protein_g": 10.114494323730469,
+      "carbohydrates_g": 7.987460613250732,
+      "fat_g": 6.599592685699463
+    }
+  },
+  {
+    "epoch": 9,
+    "training_loss": 0.09832649845168644,
+    "validation_loss": 0.17987780117815402,
+    "validation_mean_normalized_mae": 0.443245530128479,
+    "validation_mae": {
+      "calories_kcal": 92.10977172851562,
+      "protein_g": 9.967952728271484,
+      "carbohydrates_g": 7.841289520263672,
+      "fat_g": 6.585770606994629
+    }
+  },
+  {
+    "epoch": 10,
+    "training_loss": 0.09262174816307453,
+    "validation_loss": 0.18425499223912312,
+    "validation_mean_normalized_mae": 0.45064306259155273,
+    "validation_mae": {
+      "calories_kcal": 95.15174865722656,
+      "protein_g": 10.261329650878906,
+      "carbohydrates_g": 8.001151084899902,
+      "fat_g": 6.497481822967529
+    }
+  }
+]

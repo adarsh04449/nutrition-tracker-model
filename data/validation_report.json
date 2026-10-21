@@ -1,0 +1,35 @@
+{
+  "split": "validation",
+  "rows": 413,
+  "checkpoint_epoch": 9,
+  "device": "cpu",
+  "loss": 0.17987776848940815,
+  "mean_normalized_mae": 0.44324541091918945,
+  "comparison_to_training_mean_baseline": {
+    "calories_kcal": {
+      "baseline_mae": 180.3813934326172,
+      "model_mae": 92.10975646972656,
+      "mae_reduction": 88.27163696289062,
+      "percent_reduction": 48.93610991860153
+    },
+    "protein_g": {
+      "baseline_mae": 18.10198211669922,
+      "model_mae": 9.967950820922852,
+      "mae_reduction": 8.134031295776367,
+      "percent_reduction": 44.9344786849207
+    },
+    "carbohydrates_g": {
+      "baseline_mae": 12.034698486328125,
+      "model_mae": 7.8412885665893555,
+      "mae_reduction": 4.1934099197387695,
+      "percent_reduction": 34.84432887539844
+    },
+    "fat_g": {
+      "baseline_mae": 10.320235252380371,
+      "model_mae": 6.5857696533203125,
+      "mae_reduction": 3.7344655990600586,
+      "percent_reduction": 36.185857276835826
+    }
+  },
+  "official_test_used": false
+}

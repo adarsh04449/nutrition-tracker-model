@@ -1,0 +1,23 @@
+{
+  "baseline": "training-set mean predicted for every validation row",
+  "training_rows": 2342,
+  "validation_rows": 413,
+  "targets": {
+    "calories_kcal": {
+      "training_mean_prediction": 250.2688545644748,
+      "validation_mae": 180.38140586709895
+    },
+    "protein_g": {
+      "training_mean_prediction": 17.454199032450894,
+      "validation_mae": 18.10198304001257
+    },
+    "carbohydrates_g": {
+      "training_mean_prediction": 19.353928109735268,
+      "validation_mae": 12.034698532417814
+    },
+    "fat_g": {
+      "training_mean_prediction": 12.525751169513235,
+      "validation_mae": 10.320236080603074
+    }
+  }
+}

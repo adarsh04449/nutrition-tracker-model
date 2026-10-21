@@ -78,14 +78,52 @@ the official RGB split lists.
 python -m nutrition_model.model
 ```
 
-Success produces a feature shape of `(1, 1280)`. These features are not nutrition
-predictions. No model has been trained yet.
+Success reports 1,280 encoder features per image and a prediction shape of `(2, 4)`
+for a two-image test batch. The four outputs are untrained normalized nutrition
+predictions at this stage.
+
+## 5. Measure the baseline
+
+The baseline predicts the four training-set means for every validation row and
+reports mean absolute error (MAE). It does not load images or inspect test labels.
+
+```bash
+python -m nutrition_model.baseline
+```
+
+Results are saved to `data/baseline_report.json`. The trained image model must be
+compared on the same validation rows and should produce lower MAE.
 
 ## Next step
 
-Calculate a training-mean baseline on validation data before implementing the
-four-output regression model. Keep the official test set untouched until final
-evaluation.
+Train the frozen-encoder regression head. This uses AdamW, Smooth L1 loss, and
+training-set target normalization. Validation MAE is reported in kcal and grams.
+
+```bash
+python -m nutrition_model.train
+```
+
+The best validation checkpoint is saved under `data/checkpoints/`. Keep the
+official test set untouched until model selection is finished.
+
+## 6. Reproduce validation results
+
+Load the best saved checkpoint, evaluate all validation images, and compare its
+MAE with the training-mean baseline:
+
+```bash
+python -m nutrition_model.evaluate
+```
+
+The result is saved to `data/validation_report.json`. This command rejects the
+official test CSV during model development. After model selection, evaluate
+the untouched official test split once with:
+
+```bash
+python -m nutrition_model.evaluate --split test
+```
+
+This writes `data/test_report.json`. Do not use that result to tune the model.
 
 ## Data source
 
